@@ -44,3 +44,7 @@ The complete seal is rotated 90° clockwise. The gold reflection samples the act
 normalized slide-in translation, using the same foil material for logo and lettering.
 There are no timers, pointer/touch controls, or device orientation listeners.
 Freezing the cover for debugging also freezes its reflection.
+
+Layout and typography use conditional Tailwind utilities, including the embedded
+ID card variant. Scoped CSS is reserved for the cover artwork, 3D projection,
+shadows, and animation keyframes; component layout rules stay out of global CSS.
